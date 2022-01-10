@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900");
+
+/* Html and CSS */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+/* Top Bar Header */
+.top-bar {
+  background-color: #207dff;
+  font-size: 14px;
+  padding-top: 0.5rem;
+}
+.top-bar-text {
+  color: white;
+}
+
+.signin {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+.signup {
+  text-transform: uppercase;
+}
+
+/* Nav Bar */
+.parent-nav {
+  position: relative;
+}
+
+.logo-text {
+  font-weight: 900;
+  font-size: 1.6rem !important;
+}
+
+.navbar {
+  padding: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.appointment {
+  background-color: #fe5f55 !important;
+  border: 1px solid #fe5f55 !important;
+}
+
+.search-button {
+  background-color: #fff !important;
+  border: 1px solid #fff !important;
+  border-radius: 40px;
+  color: #000 !important;
+}
+
+/* Hero Section */
+
+.bg-image {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../assests/xbg_3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hero-text button {
+  border-radius: 40px;
+}
+.about-buttons button {
+  border-radius: 40px;
+}
+
+.welcome-heading {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #207dff;
+  font-weight: 700;
+}
+
+.main-heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.header-paragrapgh {
+  color: #333333;
+}
+
+/* About Us Section */
+.about-subheading {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.about-subheading span,
+.fourth-column-sub-div p {
+  color: #207dff;
+}
+
+.search-place-section {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../assests/xbg_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 8rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.search {
+  height: 50vh;
+}
+
+.search h2 {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.search p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Out Team Section */
+.our-team h1 {
+  font-size: 2.8rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.our-team p {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 5rem;
+  max-width: 1024px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+/* Cards */
+.card {
+  border: none;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.card-text {
+  text-transform: uppercase;
+  color: #207dff;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.card-description {
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #999999;
+}
+
+.card-button {
+  border-radius: 25px;
+}
+
+/* Stats Section */
+.stats-section {
+  width: 100%;
+  /* height: 85vh; */
+  background-image: url(../assests/xbg_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 8rem;
+  margin-bottom: 8rem;
+}
+.overlay-stats {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 0;
+  background-color: rgba(32, 125, 255, 0.7);
+}
+
+/* .stats-row {
+  height: 85vh;
+} */
+
+.stats-row p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.stats-row h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.stats-row button {
+  color: #fff;
+  border-radius: 30px;
+}
+
+.stats-numbers {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number1 {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.number3 {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.number2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stats-numbers h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.card-body-zero-space {
+  padding: 0rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.comments {
+  text-transform: uppercase;
+  color: #dc3545;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.card-title-blog {
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.icon-circle {
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title-contact {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.card-description-contact {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.appointment-send-message {
+  border-radius: 30px;
+  background-color: #fe5f55 !important;
+  border: 1px solid #fe5f55 !important;
+}
+
+
+/* Footer Center */
+
+.footer-section {
+  width: 100%;
+  /* height: 40vh; */
+  padding: 8rem 0;
+  background-image: url(../assests/footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.footer-overlay {
+  /* padding: 10rem 5rem; */
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  /* width: 100%;
+  height: 100%; */
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-overlay-sub {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 5;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.footer-headings {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-para {
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.first-column-footer {
+  flex: 20%;
+  padding: 0 20px;
+}
+
+.first-column-footer ul {
+  color: #207dff;
+  list-style: none;
+  padding: 0px;
+  margin-left: -15px;
+}
+
+.first-column-footer li {
+  margin-bottom: 10px;
+}
+
+.first-column-footer ul li:before {
+  content: "\27F6";
+  margin: 0 1em; /* any design */
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fourth-column-sub-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth-column-sub-div p {
+  margin-left: 10px;
+}
+
+.location-address {
+  color: #000 !important;
+}
+
+.footer-cc {
+  text-align: center;
+  margin: 20px 0;
+  color: rgba(0, 0, 0, 0.8);
+  z-index: 5;
+  position: relative;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials h2 {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.testimonials p {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.image-circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-circle img {
+  width: 100%;
+  height: 100%;
+}
+
+.owl-carousel .card {
+  background-color: transparent;
+}
+
+.testimonial-text1 {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center !important;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.testimonial-text2{
+  font-weight: 400;
+  text-align: center !important;
+  color: #fff;
+  font-size: 20px;
+}
+
+.testimonial-text3{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.qoutation{
+  height: 36px;
+  width: 36px;
+  background-color: #fe5f55;
+  border-radius: 18px;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Queries */
+
+/* For Mobile Phones */
+@media (max-width: 600px) {
+  
+  .about-subheading, .testimonials h2{
+    font-size: 1.8rem;
+  }
+  .about-buttons .appointment{
+    margin-bottom: 3rem;
+    display: block;
+    width: 100%;
+  }
+  .about-buttons .make-an-appointment, .stats-row button{
+    margin-bottom: 0.55rem;
+    display: block;
+    width: 100%;
+  }
+  .our-team-class .main-heading, .stats-row h2{
+    font-size: 1.8rem;
+  }
+  .map-form{
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .first-column-footer{
+    flex: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-bar {
+    display: none;
+  }
+  .navbar{
+    position: relative;
+    background-color: #000 !important;
+  }
+  .logo-text, .nav-item a{
+    color: #fff !important;
+  }
+  .navbar-toggler-icon, .navbar-toggler{
+    background-color: #fff !important;
+  }
+  .main-heading{
+    font-size: 2.5rem;
+  }
+  .about-subheading, .testimonials h2{
+    font-size: 1.5rem;
+  }
+  .about-buttons .appointment{
+    margin-bottom: 3rem;
+    display: block;
+    width: 100%;
+  }
+  .about-buttons .make-an-appointment{
+    margin-bottom: 0.55rem;
+    display: block;
+    width: 100%;
+  }
+  .number1, .number3{
+    border-right: none;
+  }
+  .number3, .number4{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}

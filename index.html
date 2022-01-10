@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My UI Project</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- top bar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 top-bar-text">
+            <div class="d-flex justify-content-center">
+              <i
+                class="fa fa-phone fa-flip-horizontal mr-2"
+                aria-hidden="true"
+              ></i>
+              <p>03214915975</p>
+            </div>
+          </div>
+          <div class="col-md-7 top-bar-text">
+            <div class="d-flex justify-content-center">
+              <i class="fa fa-paper-plane mr-2" aria-hidden="true"></i>
+              <p>technologyworld64@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-2 top-bar-text">
+            <div class="d-flex">
+              <a class="top-bar-text mr-3 signup" href="#">Sign Up</a>
+              <a class="top-bar-text signin" href="#">Sign in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="parent-nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top my-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h2 class="logo-text">MediPlus</h2></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Department</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-success appointment">
+                  Appointment
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Section Image -->
+    <section class="bg-image">
+      <div class="container h-100">
+        <div class="row d-flex align-items-center h-100">
+          <div class="col-md-6 pt-5 col-sm-12 hero-text">
+            <p class="welcome-heading">Welcome to mediaplus</p>
+            <h1 class="main-heading mb-4">We are here<br>for your Care</h1>
+            <p class="header-paragrapgh mb-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam pariatur omnis quae qui ut? Omnis asperiores provident
+              saepe quia ullam nesciunt. Quidem facilis suscipit eaque impedit
+              voluptate ullam eveniet culpa.
+            </p>
+            <button type="button" class="btn btn-primary py-3 px-4">
+              Make an appointment
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Company -->
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <img
+              class="img-fluid h-100"
+              src="./assests/xabout.png"
+              alt="No Image Found..."
+            />
+          </div>
+          <div
+            class="col-md-6 col-sm-12 d-flex flex-column px-4 align-items-start justify-content-center"
+          >
+            <h2 class="about-subheading mb-4 mt-4">
+              We are <span>Mediplus</span> a Medical Clinic
+            </h2>
+            <p class="header-paragrapgh">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+              dolorem molestiae? Ipsa optio deserunt vitae sapiente!
+              Consequatur, placeat illum error incidunt beatae modi officia
+              voluptatum natus soluta quis itaque accusamus.
+            </p>
+            <div class=" about-buttons w-100">
+              <button type="button" class="btn btn-primary py-3 px-4 mr-2 make-an-appointment">
+                Make an appointment
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary py-3 px-4 appointment"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Places -->
+    <section class="search-place-section">
+      <div class="overlay">
+        <div class="container">
+          <div class="row search">
+            <div
+              class="col-12 py-4 d-flex flex-column justify-content-center align-items-center"
+            >
+              <h2>Your health is our priority</h2>
+              <p>
+                We can manage your dream building A small river named Duden
+                flows by their place
+              </p>
+              <button
+                type="button"
+                class="btn btn-secondary py-3 px-4 search-button"
+              >
+                Search Places
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Qualified Doctors -->
+    <section class="mb-5 pb-5 our-team-class">
+      <div class="container-fluid px-10">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-12 d-flex align-items-center flex-column text-center our-team"
+          >
+            <h1 class="main-heading mb-4">Our Qualified Doctors</h1>
+            <p>
+              Separated they live in. A small river named Duden flows by their
+              place and supplies it with the necessary regelialia. It is a
+              paradisematic country
+            </p>
+          </div>
+        </div>
+
+        <div class="row px-5">
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests//xdoc-1.png" alt="No Image" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Dr. Lloyd Wilson</h4>
+                <p class="card-text">neuorologit</p>
+                <p class="card-description">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Book Now
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests//xdoc-2.png" alt="No Image" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Dr. Rachel Parker</h4>
+                <p class="card-text">neuorologit</p>
+                <p class="card-description">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Book Now
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests//xdoc-3.png" alt="No Image" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Dr. Ian Smith</h4>
+                <p class="card-text">neuorologit</p>
+                <p class="card-description">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Book Now
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests//xdoc-4.png" alt="No Image" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Dr. Alicia Henderson</h4>
+                <p class="card-text">neuorologit</p>
+                <p class="card-description">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Book Now
+              </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section  class="stats-section">
+      <div class="overlay-stats">
+        <div class="container h-100 d-flex">
+          <div class="row stats-row">
+            <div class="col-md-6 col-sm-12 d-flex px-4 flex-column align-items-start justify-content-center">
+              <p>Fun Fact</p>
+              <h2>Over 5,100 patients trust us</h2>
+              <button type="button" class="btn btn-pr px-4 py-3 appointment">
+                Make an appointment
+              </button>
+              
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex px-4 flex-column align-items-start justify-content-center">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 number1">
+                  <div class="stats-numbers">
+                    <h1>30</h1>
+                    <p>Years of Experienced</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 number2">
+                  <div class="stats-numbers">
+                    <h1>4,500</h1>
+                    <p>Happy Patients</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 number3">
+                  <div class="stats-numbers">
+                    <h1>83</h1>
+                    <p>Number of Doctors</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 number4">
+                  <div class="stats-numbers">
+                    <h1>300</h1>
+                    <p>Number of Staffs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+
+    <section class="mb-5 pb-5 our-team-class">
+      <div class="container px-10">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-12 d-flex align-items-center flex-column text-center our-team"
+          >
+            <h1 class="main-heading mb-4">Gets Every Single Updates Here</h1>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+            </p>
+          </div>
+        </div>
+
+        <div class="row px-5">
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests/ximage_1.png" alt="No Image" />
+              <div class="card-body-zero-space text-left">
+                <div class="comments">
+                  <p>June 9, 2019 Admin <span><i class='far fa-comment-alt' style='color:red'></i></span> 3</p>
+                </div>
+                <h4 class="card-title-blog">Scary Thing That You Don’t Get Enough Sleep</h4> 
+                <p class="card-description">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Read More
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests/ximage_2.png" alt="No Image" />
+              <div class="card-body-zero-space text-left">
+                <div class="comments">
+                  <p>June 9, 2019 Admin <span><i class='far fa-comment-alt' style='color:red'></i></span> 3</p>
+                </div>
+                <h4 class="card-title-blog">Scary Thing That You Don’t Get Enough Sleep</h4> 
+                <p class="card-description">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Read More
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests/ximage_3.png" alt="No Image" />
+              <div class="card-body-zero-space text-left">
+                <div class="comments">
+                  <p>June 9, 2019 Admin <span><i class='far fa-comment-alt' style='color:red'></i></span> 3</p>
+                </div>
+                <h4 class="card-title-blog">Scary Thing That You Don’t Get Enough Sleep</h4> 
+                <p class="card-description">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Read More
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests/xdept-1.png" alt="No Image" />
+              <div class="card-body-zero-space text-left">
+                <div class="comments">
+                  <p>June 9, 2019 Admin <span><i class='far fa-comment-alt' style='color:red'></i></span> 3</p>
+                </div>
+                <h4 class="card-title-blog">Scary Thing That You Don’t Get Enough Sleep</h4> 
+                <p class="card-description">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Read More
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests/ximage_5.jpg.jpeg" alt="No Image" />
+              <div class="card-body-zero-space text-left">
+                <div class="comments">
+                  <p>June 9, 2019 Admin <span><i class='far fa-comment-alt' style='color:red'></i></span> 3</p>
+                </div>
+                <h4 class="card-title-blog">Scary Thing That You Don’t Get Enough Sleep</h4> 
+                <p class="card-description">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Read More
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assests/ximage_1.png" alt="No Image" />
+              <div class="card-body-zero-space text-left">
+                <div class="comments">
+                  <p>June 9, 2019 Admin <span><i class='far fa-comment-alt' style='color:red'></i></span> 3</p>
+                </div>
+                <h4 class="card-title-blog">Scary Thing That You Don’t Get Enough Sleep</h4> 
+                <p class="card-description">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <button
+                type="button"
+                class="card-button btn btn-primary py-2 px-3"
+              >
+                Read More
+              </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section  class="stats-section">
+      <div class="overlay-stats">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-12">
+              <div class="testimonials">
+                <p>Read Testimonials</p>
+                <h2>Our Patients Says</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="owl-carousel owl-theme pt-5">
+
+            <div class="card mx-2 d-flex align-items-center pt-4">
+              <div style="position: relative;">
+                <div class="qoutation">
+                  <i class="fa fa-quote-left" style="color: white;" aria-hidden="true"></i>
+                </div>
+                <div class="image-circle">
+                  <img src="./assests/man.jpeg" alt="no image found" />
+                </div>
+              </div>
+              
+              <div class="card-body text-center">
+                <p class="testimonial-text1">
+                  Far far away, behind the word mountains, far from the countries
+                  Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p class="testimonial-text2">Jeff Freshman</p>
+                <p class="testimonial-text3">Patients</p>
+              </div>
+            </div>
+
+            <div class="card mx-2 d-flex align-items-center pt-4">
+              <div style="position: relative;">
+                <div class="qoutation">
+                  <i class="fa fa-quote-left" style="color: white;" aria-hidden="true"></i>
+                </div>
+                <div class="image-circle">
+                  <img src="./assests/man.jpeg" alt="no image found" />
+                </div>
+              </div>
+              
+              <div class="card-body text-center">
+                <p class="testimonial-text1">
+                  Far far away, behind the word mountains, far from the countries
+                  Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p class="testimonial-text2">Jeff Freshman</p>
+                <p class="testimonial-text3">Patients</p>
+              </div>
+            </div>
+
+            <div class="card mx-2 d-flex align-items-center pt-4">
+              <div style="position: relative;">
+                <div class="qoutation">
+                  <i class="fa fa-quote-left" style="color: white;" aria-hidden="true"></i>
+                </div>
+                <div class="image-circle">
+                  <img src="./assests/man.jpeg" alt="no image found" />
+                </div>
+              </div>
+              
+              <div class="card-body text-center">
+                <p class="testimonial-text1">
+                  Far far away, behind the word mountains, far from the countries
+                  Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p class="testimonial-text2">Jeff Freshman</p>
+                <p class="testimonial-text3">Patients</p>
+              </div>
+            </div>
+
+            <div class="card mx-2 d-flex align-items-center pt-4">
+              <div style="position: relative;">
+                <div class="qoutation">
+                  <i class="fa fa-quote-left" style="color: white;" aria-hidden="true"></i>
+                </div>
+                <div class="image-circle">
+                  <img src="./assests/man.jpeg" alt="no image found" />
+                </div>
+              </div>
+              
+              <div class="card-body text-center">
+                <p class="testimonial-text1">
+                  Far far away, behind the word mountains, far from the countries
+                  Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p class="testimonial-text2">Jeff Freshman</p>
+                <p class="testimonial-text3">Patients</p>
+              </div>
+            </div>
+
+            <div class="card mx-2 d-flex align-items-center pt-4">
+              <div style="position: relative;">
+                <div class="qoutation">
+                  <i class="fa fa-quote-left" style="color: white;" aria-hidden="true"></i>
+                </div>
+                <div class="image-circle">
+                  <img src="./assests/man.jpeg" alt="no image found" />
+                </div>
+              </div>
+              
+              <div class="card-body text-center">
+                <p class="testimonial-text1">
+                  Far far away, behind the word mountains, far from the countries
+                  Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p class="testimonial-text2">Jeff Freshman</p>
+                <p class="testimonial-text3">Patients</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Us -->
+    <section class="mb-5 pb-5 our-team-class">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-12 d-flex align-items-center flex-column text-center our-team"
+          >
+            <h1 class="main-heading mb-4">Contact Us</h1>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+            </p>
+          </div>
+        </div>
+
+        <div class="row px-2 pb-5">
+
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 bg-light d-flex align-items-center pt-4"> 
+              <div class="icon-circle">
+                <i class="fa fa-phone fa-flip-horizontal"  style="color:#207dff; font-size: 24px;" aria-hidden="true"></i>
+              </div> 
+              <div class="card-body text-center">
+                <h4 class="card-title-contact py-4">Address</h4> 
+                <p class="card-description">198 West 21th Street, Suite 721 New York NY 10016</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 bg-light d-flex align-items-center pt-4"> 
+              <div class="icon-circle">
+                <i class="fa fa-map-signs fa-flip-horizontal"  style="color:#207dff; font-size: 24px;" aria-hidden="true"></i>
+              </div> 
+              <div class="card-body text-center">
+                <h4 class="card-title-contact py-4">Contact Number</h4> 
+                <p class="card-description-contact">+ 1235 2355 98</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 bg-light d-flex align-items-center pt-4"> 
+              <div class="icon-circle">
+                <i class="fa fa-paper-plane"  style="color:#207dff; font-size: 24px;" aria-hidden="true"></i>
+              </div> 
+              <div class="card-body text-center">
+                <h4 class="card-title-contact py-4">Email Address</h4> 
+                <p class="card-description-contact">1info@yoursite.com</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 bg-light d-flex align-items-center pt-4"> 
+              <div class="icon-circle">
+                <i class="fa fa-globe fa-flip-horizontal"  style="color:#207dff; font-size: 24px;" aria-hidden="true"></i>
+              </div> 
+              <div class="card-body text-center">
+                <h4 class="card-title-contact py-4">Website</h4> 
+                <p class="card-description-contact">yoursite.com</p> 
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row map-form mx-2 bg-light">
+          <div class="col-md-6 col-sm-12 pl-0">
+            <div class="h-100 w-100 map-responsive">
+              <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <form class="py-5">
+
+              <div class="form-group"> 
+                <input type="text" class="form-control" id="name" aria-describedby="nameField" placeholder="Your Name"> 
+              </div>
+
+              <div class="form-group"> 
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email"> 
+              </div>
+
+              <div class="form-group"> 
+                <input type="text" class="form-control" id="subject" aria-describedby="subjectField" placeholder="Subject"> 
+              </div>
+              
+              <div class="form-group">
+                <textarea placeholder="Message" class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+              </div>
+
+              <button type="button" class="btn btn-secondary py-3 px-4 appointment-send-message" >Send Message</button>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <div class="footer-section">
+      <div class="footer-overlay"> </div> 
+      <div class="footer-overlay-sub">
+
+        <div class="first-column-footer">
+          <h5 class="footer-headings">Mediplus</h5>
+          <p class="footer-para">Far far away, behind the word mountains, far from the countries.</p>
+        </div>
+
+        <div class="first-column-footer">
+          <h5 class="footer-headings">Departments</h5>
+          <ul>
+            <li><a href="#">Neurology</a></li>
+            <li><a href="#">Opthalmology</a></li>
+            <li><a href="#">Nuclear Magnetic</a></li>
+            <li><a href="#">Surgical</a></li>
+            <li><a href="#">Cardiology</a></li>
+            <li><a href="#">Dental</a></li>
+          </ul>
+        </div>
+
+        <div class="first-column-footer">
+          <h5 class="footer-headings">Links</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Doctors</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="first-column-footer">
+          <h5 class="footer-headings">Services</h5>
+          <ul>
+            <li><a href="#">Emergency Services</a></li>
+            <li><a href="#">Qualified Doctors</a></li>
+            <li><a href="#">Outdoors Checkup</a></li>
+            <li><a href="#">24 Hours Services</a></li> 
+          </ul>
+        </div>
+
+        <div class="first-column-footer">
+          <h5 class="footer-headings">Have a Questions?</h5>
+          <div class="fourth-column-sub-div">
+            <i class="fa fa-map-marker"></i>
+            <p class="location-address">203 Fake St. Mountain View, San Francisco, California, USA</p>
+          </div>
+
+          <div class="fourth-column-sub-div">
+            <i class="fa fa-phone fa-flip-horizontal"  style="color:#207dff;" aria-hidden="true"></i>
+            <p>+2 392 3929 210</p>
+          </div>
+
+          <div class="fourth-column-sub-div">
+            <i class="fa fa-envelope" style="color:#207dff;" aria-hidden="true"></i>
+            <p>info@yourdomain.com</p>
+          </div>
+        </div>   
+      </div>
+
+      <p class="footer-cc">Copyright ©2022 All rights reserved | This template is made with <span><i class="fa fa-heart" style="color: red; "aria-hidden="true"></i>
+      </span> by <a href="#">Colorlib</a></p>      
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+      });
+    </script>
+
+  </body>
+</html>
